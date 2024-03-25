@@ -1,3 +1,6 @@
 [submodule "Source/3rdparty/Dragablz"]
 	path = Source/3rdparty/Dragablz
 	url = https://github.com/BornToBeRoot/Dragablz
+[submodule "Source/3rdparty/MahApps.Metro"]
+	path = Source/3rdparty/MahApps.Metro
+	url = https://github.com/BornToBeRoot/MahApps.Metro.git
