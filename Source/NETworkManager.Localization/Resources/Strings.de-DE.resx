@@ -3814,4 +3814,20 @@ Versuchen Sie es in einigen Sekunden erneut.</value>
   <data name="ToolTip_RunCommandWithHotKey" xml:space="preserve">
     <value>Befehl ausführen... (Strg+Shift+P)</value>
   </data>
+  <data name="ProfileFiles" xml:space="preserve">
+    <value>Profildateien</value>
+  </data>
+  <data name="OpenSettingsDots" xml:space="preserve">
+    <value>Einstellungen öffnen...</value>
+  </data>
+  <data name="ExpandAndOpenSearchDots" xml:space="preserve">
+    <value>Erweitern und Suche öffnen...</value>
+  </data>
+  <data name="WiFiAccessNotAvailableMessage" xml:space="preserve">
+    <value>Der Zugriff auf den Wi-Fi-Adapter wird von Windows nicht zugelassen.
+
+Öffnen Sie die Windows-Einstellungen und erlauben Sie den Wi-Fi-Zugriff für diese Anwendung.
+
+Starten Sie die Anwendung anschließend neu, um das Feature zu nutzen.</value>
+  </data>
 </root>

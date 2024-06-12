@@ -3671,6 +3671,15 @@ namespace NETworkManager.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Expand and open search....
+        /// </summary>
+        public static string ExpandAndOpenSearchDots {
+            get {
+                return ResourceManager.GetString("ExpandAndOpenSearchDots", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Expand host view.
         /// </summary>
         public static string ExpandHostView {
@@ -6297,6 +6306,15 @@ namespace NETworkManager.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open settings....
+        /// </summary>
+        public static string OpenSettingsDots {
+            get {
+                return ResourceManager.GetString("OpenSettingsDots", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open website.
         /// </summary>
         public static string OpenWebsite {
@@ -6814,6 +6832,15 @@ namespace NETworkManager.Localization.Resources {
         public static string ProfileFileCouldNotBeLoadedMessage {
             get {
                 return ResourceManager.GetString("ProfileFileCouldNotBeLoadedMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Profile files.
+        /// </summary>
+        public static string ProfileFiles {
+            get {
+                return ResourceManager.GetString("ProfileFiles", resourceCulture);
             }
         }
         
@@ -10819,6 +10846,19 @@ namespace NETworkManager.Localization.Resources {
         public static string WiFi {
             get {
                 return ResourceManager.GetString("WiFi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Access to the Wi-Fi adapter is not permitted by Windows.
+        ///
+        ///Open the Windows settings and allow Wi-Fi access for this application.
+        ///
+        ///Restart the application afterwards to use this feature..
+        /// </summary>
+        public static string WiFiAccessNotAvailableMessage {
+            get {
+                return ResourceManager.GetString("WiFiAccessNotAvailableMessage", resourceCulture);
             }
         }
         
