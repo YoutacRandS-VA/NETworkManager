@@ -6,6 +6,7 @@
     "@octokit/graphql": "^8.1.1",
     "@octokit/plugin-rest-endpoint-methods": "^13.2.4",
     "@octokit/rest": "^21.0.2",
+    "@panva/hkdf": "^1.2.1",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/github": "^10.3.5",
     "@xpack-dev-tools/meson-build": "^1.4.2-1.1",
