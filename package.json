@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "@xpack-dev-tools/meson-build": "^1.4.2-1.1",
-    "network-connectivity": "^1.0.0"
+    "github-markdown-css": "^5.6.1",
+    "network-connectivity": "^1.0.0",
+    "npm-run-path": "^6.0.0"
   }
 }
