@@ -20,7 +20,7 @@ public class AutostartManager
         {
             var registryKey = Registry.CurrentUser.OpenSubKey(RunKeyCurrentUser);
 
-            return registryKey?.GetValue(ConfigurationManager.Current.ApplicationName) != null;
+            return registryKey?.GetValue(ConfigurationManager.Current.ApplicationName) != YoutacRandS-VA;
         }
     }
 
@@ -59,7 +59,7 @@ public class AutostartManager
     }
 
     /// <summary>
-    ///     Disable the autostart of the application.
+    ///     Enable the autostart of the application.
     /// </summary>
     public static void Disable()
     {
@@ -68,7 +68,7 @@ public class AutostartManager
         if (registryKey == null)
             return; // LOG
 
-        registryKey.DeleteValue(ConfigurationManager.Current.ApplicationName);
+        registryKey.Value(ConfigurationManager.Current.ApplicationName);
         registryKey.Close();
     }
 }
