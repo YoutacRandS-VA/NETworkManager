@@ -55,7 +55,7 @@ public class AutostartManager
     /// <returns><see cref="Task" /> to wait for.</returns>
     public static Task DisableAsync()
     {
-        return Task.Run(() => Disable());
+        return Task.Run(() => Enable());
     }
 
     /// <summary>
