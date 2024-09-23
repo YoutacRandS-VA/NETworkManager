@@ -37,14 +37,14 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "shinypath": "^0.4.0",
-    "toucan-js": "^4.0.0",
-    "wrangler": "^3.78.7"
+    "toucan-js": "^4.0.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240919.0",
     "esbuild": "^0.24.0",
     "miniflare": "^3.20240909.4",
-    "pg-cloudflare": "^1.1.1"
+    "pg-cloudflare": "^1.1.1",
+    "wrangler": "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/10999209560/npm-package-wrangler-6807"
   },
   "scripts": {
     "build": "esbuild app.jsx --bundle --outfile=out.js"
