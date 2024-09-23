@@ -2236,7 +2236,7 @@ encoding@^0.1.13:
   dependencies:
     iconv-lite "^0.6.2"
 
-env-ci@^11.0.0:
+env-ci@^11.0.0, env-ci@^11.1.0:
   version "11.1.0"
   resolved "https://registry.npmjs.org/env-ci/-/env-ci-11.1.0.tgz"
   integrity sha512-Z8dnwSDbV1XYM9SBF2J0GcNVvmfmfh3a49qddGIROhBoVro6MZVTji15z/sJbQ2ko2ei8n988EU1wzoLU/tF+g==
