@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@astrojs/cloudflare": "^11.1.0",
     "@cloudflare/kv-asset-handler": "^0.3.4",
     "@cloudflare/workerd-linux-64": "^1.20240919.0",
     "@guardian-network/asset-manager-signatures": "^1.3.1",
