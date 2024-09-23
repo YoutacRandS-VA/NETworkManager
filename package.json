@@ -42,12 +42,10 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240919.0",
-    "esbuild": "0.24.0",
-  "miniflare": "^3.20240909.4",
+    "esbuild": "^0.24.0",
+    "miniflare": "^3.20240909.4",
     "pg-cloudflare": "^1.1.1"
   },
-
-
   "scripts": {
     "build": "esbuild app.jsx --bundle --outfile=out.js"
   }
