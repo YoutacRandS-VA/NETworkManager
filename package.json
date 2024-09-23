@@ -13,6 +13,7 @@
     "cloudflare": "^3.5.0",
     "descend-optionalchain": "^1.0.0",
     "github-markdown-css": "^5.6.1",
+    "hono": "^4.6.2",
     "hosted-git-info": "^8.0.0",
     "inflate-object-spread": "^0.0.4",
     "jose": "^5.9.3",
@@ -21,5 +22,8 @@
     "node-network-manager": "^1.0.14",
     "npm-run-path": "^6.0.0",
     "shinypath": "^0.4.0"
+  },
+  "devDependencies": {
+    "miniflare": "^3.20240909.4"
   }
 }
