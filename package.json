@@ -9,6 +9,7 @@
     "@panva/hkdf": "^1.2.1",
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/github": "^10.3.5",
+    "@sveltejs/adapter-cloudflare": "^4.7.2",
     "@xpack-dev-tools/meson-build": "^1.4.2-1.1",
     "cdk-github": "^0.0.57",
     "cloudflare": "^3.5.0",
