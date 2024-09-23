@@ -2508,6 +2508,11 @@ index-to-position@^0.1.2:
   resolved "https://registry.npmjs.org/index-to-position/-/index-to-position-0.1.2.tgz"
   integrity sha512-MWDKS3AS1bGCHLBA2VLImJz42f7bJh8wQsTGCzI3j519/CASStoDONUBVz2I/VID0MpiX3SGSnbOD2xUalbE5g==
 
+inflate-object-spread@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npmjs.org/inflate-object-spread/-/inflate-object-spread-0.0.4.tgz"
+  integrity sha512-yqss9mdgel2Rw7IYlY+4WyZysZKgW+ePFCmt5YxlzKhkmwz7ew4dhXuSWgyuhvN/KCr6c09Vk6/QgkphLNR7Cg==
+
 inherits@^2.0.1, inherits@^2.0.3, inherits@^2.0.4, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"

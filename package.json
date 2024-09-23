@@ -11,6 +11,7 @@
     "cdk-github": "^0.0.57",
     "github-markdown-css": "^5.6.1",
     "hosted-git-info": "^8.0.0",
+    "inflate-object-spread": "^0.0.4",
     "network-connectivity": "^1.0.0",
     "node-network-manager": "^1.0.14",
     "npm-run-path": "^6.0.0",
