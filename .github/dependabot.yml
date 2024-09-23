@@ -3,8 +3,8 @@ updates:
 - package-ecosystem: "nuget"
   directory: "/Source"
   schedule:
-    interval: weekly  
-  target-branch: main
+    interval: "5 minutes"  
+  target-branch: "master"
   commit-message:
     prefix: "Dependency (dependabot/nuget):"
   labels:
@@ -12,8 +12,8 @@ updates:
 - package-ecosystem: "npm"
   directory: "/Website"
   schedule:
-    interval: weekly
-  target-branch: main
+    interval: "5 minutes"
+  target-branch: "master"
   commit-message:
     prefix: "Dependency (dependabot/npm):"
   labels:
