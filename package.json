@@ -29,6 +29,7 @@
     "jose": "^5.9.3",
     "libsql-stateless": "^2.9.1",
     "mdn-data": "^2.11.1",
+    "meson-components": "^0.0.42",
     "network-connectivity": "^1.0.0",
     "node-network-manager": "^1.0.14",
     "npm-run-path": "^6.0.0",
