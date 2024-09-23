@@ -25,6 +25,7 @@
     "shinypath": "^0.4.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240919.0",
     "miniflare": "^3.20240909.4"
   }
 }
