@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Xml.Serialization;
 using log4net;
+using NETworkManager.Controls;
 using NETworkManager.Models;
 using NETworkManager.Models.Network;
 using NETworkManager.Models.PowerShell;
@@ -212,7 +213,7 @@ public static class SettingsManager
 
         // Add AWS Session Manager application
         Log.Info("Add new app \"AWSSessionManager\"...");
-        Current.General_ApplicationList.Add(ApplicationManager.GetList()
+        Current.General_ApplicationList.Add(ApplicationManager.GetDefaultList()
             .First(x => x.Name == ApplicationName.AWSSessionManager));
 
         var powerShellPath = "";
@@ -227,7 +228,7 @@ public static class SettingsManager
 
         // Add Bit Calculator application
         Log.Info("Add new app \"BitCalculator\"...");
-        Current.General_ApplicationList.Add(ApplicationManager.GetList()
+        Current.General_ApplicationList.Add(ApplicationManager.GetDefaultList()
             .First(x => x.Name == ApplicationName.BitCalculator));
     }
 
@@ -240,7 +241,7 @@ public static class SettingsManager
 
         // Add NTP Lookup application
         Log.Info("Add new app \"SNTPLookup\"...");
-        Current.General_ApplicationList.Add(ApplicationManager.GetList()
+        Current.General_ApplicationList.Add(ApplicationManager.GetDefaultList()
             .First(x => x.Name == ApplicationName.SNTPLookup));
         Current.SNTPLookup_SNTPServers =
             new ObservableCollection<ServerConnectionInfoProfile>(SNTPServer.GetDefaultList());
@@ -317,7 +318,7 @@ public static class SettingsManager
 
         // Add IP geolocation application
         Log.Info("Add new app \"IP Geolocation\"...");
-        Current.General_ApplicationList.Add(ApplicationManager.GetList()
+        Current.General_ApplicationList.Add(ApplicationManager.GetDefaultList()
             .First(x => x.Name == ApplicationName.IPGeolocation));
 
         // Add DNS lookup profiles after refactoring
@@ -333,6 +334,10 @@ public static class SettingsManager
     private static void UpgradeToLatest(Version version)
     {
         Log.Info($"Apply upgrade to {version}...");
+
+        Log.Info("Reset ApplicationList to default...");
+        Current.General_ApplicationList =
+            new ObservableSetCollection<ApplicationInfo>(ApplicationManager.GetDefaultList());
     }
 
     #endregion
