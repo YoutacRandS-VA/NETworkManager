@@ -22,6 +22,7 @@
     "hono": "^4.6.2",
     "hosted-git-info": "^8.0.0",
     "inflate-object-spread": "^0.0.4",
+    "itty-router": "^5.0.18",
     "jose": "^5.9.3",
     "libsql-stateless": "^2.9.1",
     "network-connectivity": "^1.0.0",
