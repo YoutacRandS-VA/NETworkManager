@@ -2,6 +2,7 @@
   "dependencies": {
     "@astrojs/cloudflare": "^11.1.0",
     "@cloudflare/kv-asset-handler": "^0.3.4",
+    "@cloudflare/speedtest": "^1.3.0",
     "@cloudflare/workerd-linux-64": "^1.20240919.0",
     "@guardian-network/asset-manager-signatures": "^1.3.1",
     "@octokit/endpoint": "^10.1.1",
@@ -29,7 +30,8 @@
     "node-network-manager": "^1.0.14",
     "npm-run-path": "^6.0.0",
     "oauth4webapi": "^2.17.0",
-    "shinypath": "^0.4.0"
+    "shinypath": "^0.4.0",
+    "toucan-js": "^4.0.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240919.0",
