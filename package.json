@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@octokit/endpoint": "^10.1.1",
     "@octokit/graphql": "^8.1.1",
     "@octokit/plugin-rest-endpoint-methods": "^13.2.4",
     "@octokit/rest": "^21.0.2",
