@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "network-connectivity": "^1.0.0"
+  }
+}
