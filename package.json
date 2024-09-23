@@ -7,6 +7,7 @@
     "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/github": "^10.3.5",
     "@xpack-dev-tools/meson-build": "^1.4.2-1.1",
+    "cdk-github": "^0.0.57",
     "github-markdown-css": "^5.6.1",
     "hosted-git-info": "^8.0.0",
     "network-connectivity": "^1.0.0",
