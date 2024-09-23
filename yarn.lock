@@ -7624,7 +7624,7 @@ worktop@0.8.0-next.18:
     mrmime "^2.0.0"
     regexparam "^3.0.0"
 
-wrangler@^3.28.4, wrangler@^3.78.3:
+wrangler@^3.28.4, wrangler@^3.78.3, wrangler@^3.78.7:
   version "3.78.7"
   resolved "https://registry.npmjs.org/wrangler/-/wrangler-3.78.7.tgz"
   integrity sha512-z2ubdgQZ8lh2TEpvihFQOu3HmCNus78sC1LMBiSmgv133i4DeUMuz6SJglles2LayJAKrusjTqFnDYecA2XDDg==
