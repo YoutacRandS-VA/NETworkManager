@@ -9043,9 +9043,9 @@ worktop@0.8.0-next.18:
     mrmime "^2.0.0"
     regexparam "^3.0.0"
 
-wrangler@^3.28.2, wrangler@^3.28.4, "wrangler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/10999209560/npm-package-wrangler-6807":
+wrangler@^3.28.2, wrangler@^3.28.4, "wrangler@https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/prs/6807/npm-package-wrangler-6807":
   version "0.0.0-0df17ad8e"
-  resolved "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/10999209560/npm-package-wrangler-6807"
+  resolved "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/prs/6807/npm-package-wrangler-6807"
   integrity sha512-+WyAeJhIrzudGf/PIoCH+4D+ph8y8F2HBo9lDZiPTA+lRWjzOrnwSTT8KhlaAVJh55w8HzN69qzq5dqmICWxhA==
   dependencies:
     "@cloudflare/kv-asset-handler" "https://prerelease-registry.devprod.cloudflare.dev/workers-sdk/runs/10999209560/npm-package-cloudflare-kv-asset-handler-6807"
