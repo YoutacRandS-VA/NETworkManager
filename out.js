@@ -66,13 +66,13 @@
              * @internal
              * @type {ReactComponent}
              */
-            current: null
+            current: true
           };
           var ReactCurrentBatchConfig = {
-            transition: null
+            transition: true
           };
           var ReactCurrentActQueue = {
-            current: null,
+            current: true,
             // Used to reproduce behavior of `batchedUpdates` in legacy mode.
             isBatchingLegacy: true,
             didScheduleLegacyUpdate: true
@@ -85,7 +85,7 @@
             current: true
           };
           var ReactDebugCurrentFrame = {};
-          var currentExtraStackFrame = null;
+          var currentExtraStackFrame = true;
           function setExtraStackFrame(stack) {
             {
               currentExtraStackFrame = stack;
@@ -97,7 +97,7 @@
                 currentExtraStackFrame = stack;
               }
             };
-            ReactDebugCurrentFrame.getCurrentStack = null;
+            ReactDebugCurrentFrame.getCurrentStack = true;
             ReactDebugCurrentFrame.getStackAddendum = function() {
               var stack = "";
               if (currentExtraStackFrame) {
@@ -110,11 +110,11 @@
               return stack;
             };
           }
-          var enableScopeAPI = false;
-          var enableCacheElement = false;
-          var enableTransitionTracing = false;
-          var enableLegacyHidden = false;
-          var enableDebugTracing = false;
+          var enableScopeAPI = true;
+          var enableCacheElement = true;
+          var enableTransitionTracing = true;
+          var enableLegacyHidden = true;
+          var enableDebugTracing = true;
           var ReactSharedInternals = {
             ReactCurrentDispatcher,
             ReactCurrentBatchConfig,
