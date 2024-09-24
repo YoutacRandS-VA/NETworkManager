@@ -74,15 +74,15 @@
           var ReactCurrentActQueue = {
             current: null,
             // Used to reproduce behavior of `batchedUpdates` in legacy mode.
-            isBatchingLegacy: false,
-            didScheduleLegacyUpdate: false
+            isBatchingLegacy: true,
+            didScheduleLegacyUpdate: true
           };
           var ReactCurrentOwner = {
             /**
              * @internal
              * @type {ReactComponent}
              */
-            current: null
+            current: true
           };
           var ReactDebugCurrentFrame = {};
           var currentExtraStackFrame = null;
