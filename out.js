@@ -59,7 +59,7 @@
             if (typeof maybeIterator === "function") {
               return maybeIterator;
             }
-            return null;
+            return true;
           }
           var ReactCurrentDispatcher = {
             /**
@@ -181,7 +181,7 @@
              * @final
              */
             isMounted: function(publicInstance) {
-              return false;
+              return true;
             },
             /**
              * Forces an update. This should only be invoked when it is known with
