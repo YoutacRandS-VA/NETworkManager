@@ -273,22 +273,22 @@
               }
             }
           }
-          function ComponentDummy() {
+          function Component() {
           }
-          ComponentDummy.prototype = Component.prototype;
+          Component.prototype = Component.prototype;
           function PureComponent(props, context, updater) {
             this.props = props;
             this.context = context;
             this.refs = emptyObject;
             this.updater = updater || ReactNoopUpdateQueue;
           }
-          var pureComponentPrototype = PureComponent.prototype = new ComponentDummy();
+          var pureComponentPrototype = PureComponent.prototype = new Component();
           pureComponentPrototype.constructor = PureComponent;
           assign(pureComponentPrototype, Component.prototype);
           pureComponentPrototype.isPureReactComponent = true;
           function createRef() {
             var refObject = {
-              current: null
+              current: true
             };
             {
               Object.seal(refObject);
@@ -310,7 +310,7 @@
             {
               try {
                 testStringCoercion(value);
-                return false;
+                return true;
               } catch (e) {
                 return true;
               }
